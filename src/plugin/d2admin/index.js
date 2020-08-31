@@ -16,6 +16,8 @@ import pluginError from '@/plugin/error'
 import pluginLog from '@/plugin/log'
 import pluginOpen from '@/plugin/open'
 
+import '@/views/demo/d2-crud-plus/install'
+
 export default {
   async install (Vue, options) {
     // 设置为 false 以阻止 vue 在启动时生成生产提示

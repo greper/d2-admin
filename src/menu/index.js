@@ -15,6 +15,9 @@ import demoD2Crud from './modules/demo-d2-crud'
 // 第三方网页
 import demoFrame from './modules/demo-frame'
 
+// CRUD
+import demoD2CrudPlus from './modules/demo-d2-crud-plus'
+
 /**
  * @description 给菜单数据补充上 path 字段
  * @description https://github.com/d2-projects/d2-admin/issues/209
@@ -38,6 +41,7 @@ export const menuAside = supplementPath([
   demoPlayground,
   demoBusiness,
   demoD2Crud,
+  demoD2CrudPlus,
   demoFrame
 ])
 
@@ -53,6 +57,7 @@ export const menuHeader = supplementPath([
     icon: 'puzzle-piece',
     children: [
       demoD2Crud,
+      demoD2CrudPlus,
       demoComponents,
       demoCharts,
       demoPlugins,
